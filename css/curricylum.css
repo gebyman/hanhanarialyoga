@@ -1,0 +1,144 @@
+body{
+    overflow-x: hidden;
+    background-color: #fde3ccd3;
+    
+}
+.nav-items{
+    display: none;
+}
+.line{
+    height: 3px;
+    width: 300px;
+    
+    background: #d3e7d2;
+   
+}
+.head{
+    display: flex;   
+    flex-direction: column;
+    
+}
+.desktop{
+    position:fixed;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f9dbc0d3;
+    height: 60px;
+    width: 100%;
+   z-index: 6000;
+}
+.desktop img{
+    width: 100px;
+    height: 60px;
+}
+.desktop ul {
+    display: flex;
+    margin-right: 5%;
+    
+}
+.desktop ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+    width:  100px;
+    justify-content: space-around;
+    
+}
+.desktop a{
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+    font-weight: bold;
+    font-size: 16px;
+    transition:  1s;
+    
+}
+
+.desktop ul :hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:  100px;
+    color: rgb(164, 162, 162); 
+    transition:  0.5s ease-in-out;
+    
+}
+.desktop li a:hover{
+    border-bottom:1px solid rgb(145, 145, 145) ;
+    height: 40px;
+    
+}
+.headTitle{
+    background-color: #fdeeedd3;
+    height: 500px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.headTitle h1{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 10px ;
+    color:#837f7f;
+}
+.headTitle h2{
+    margin-top: 1%;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 5px ;
+    color:#837f7f;
+}
+
+.footer{
+	background: #eed9b0d8;
+	height: 180px;
+	display: flex;
+    padding-left: 5%;
+    margin-top: 5%;
+    justify-content: space-around;
+   
+    padding-bottom: 4%;
+}
+.footerLine{
+	height: 3px;
+    width: 250px;
+    color: #000;
+    background: #e8f0ee;
+   
+}
+.connection{
+	margin-top:4%;
+	color: rgb(68, 68, 68);
+	line-height: 30px;
+	font-weight: bold;
+}
+.list{
+    margin-top:6%;
+	color: rgb(68, 68, 68);
+	line-height: 30px;
+	font-weight: bold;
+}
+#toggler{
+    display: none;
+}
+
+.container{
+    text-align: center;
+    margin: 5% 0 5% 0;
+}
+.container img{
+    border-radius: 5%;
+}
+.Line{
+    position: fixed;
+     right: 0;
+     top: 70%;
+     width: 60px;
+     height: 60px;
+     z-index: 9000;
+ }
+ .Line img{ 
+     width: 50px;
+     height: 50px;
+ }
